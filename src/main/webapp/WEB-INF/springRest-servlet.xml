@@ -10,4 +10,5 @@
 	<context:component-scan base-package="org.tyaa.spring.rest.hibernate.payment"></context:component-scan>
 	<mvc:annotation-driven />
 	<tx:annotation-driven />
+	<mvc:resources mapping = "/resources/**" location = "/resources/" />
 </beans>
