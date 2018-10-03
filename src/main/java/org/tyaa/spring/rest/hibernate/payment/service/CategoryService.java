@@ -32,7 +32,7 @@ public class CategoryService {
 		
 		CategoryResponse response = new CategoryResponse();
 		List<Category> categories = dao.getAll();
-		response.setStatus("succes");
+		response.setStatus("success");
 		response.setData(categories);
 		return response;
 	}
