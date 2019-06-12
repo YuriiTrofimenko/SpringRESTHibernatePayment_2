@@ -23,7 +23,7 @@ public class CategoryService {
 		CategoryResponse response = new CategoryResponse();
 		response.setStatus("success");
 		response.setMessage(
-			String.format("Категория %s создана", category.getName())
+			String.format("Category %s created", category.getName())
 		);
 		return response;
 	}

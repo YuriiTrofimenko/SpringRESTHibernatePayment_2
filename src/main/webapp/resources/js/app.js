@@ -1,4 +1,4 @@
-﻿// Single application framework
+// Single application framework
 (function ($, window) {
     //Ìàññèâ äëÿ ôóíêöèé-êîíòðîëëåðîâ ïðåäñòàâëåíèé ñòðàíèö
     var pageHandlers = {};

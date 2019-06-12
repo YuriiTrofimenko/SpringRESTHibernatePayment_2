@@ -4,14 +4,14 @@
 
         return function (param) {
         	
-        	//$('#shopping-root').html('<h1>Shopping page</h1>');
-        	$.ajax({
+            //$('#shopping-root').html('<h1>Shopping page</h1>');
+            $.ajax({
                 url: "api/category/get-all"
                 , type: 'GET'
             }).done(function (resp) {
 
             	var template;
-                if (resp != undefined && resp.status == 'success') {
+                if (resp && resp.status == 'success') {
 
                     //console.log(resp.data);
                 	//Готовим шаблон с местами для подстановки данных

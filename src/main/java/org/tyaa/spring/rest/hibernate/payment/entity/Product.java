@@ -23,8 +23,8 @@ public class Product implements Serializable {
 	private BigDecimal price;
 	private String image;
 	@ManyToOne
-    @JoinColumn(name="category_id", nullable=false)
-    private Category category;
+        @JoinColumn(name="category_id", nullable=false)
+        private Category category;
 
 	public int getId() {
 		return id;
